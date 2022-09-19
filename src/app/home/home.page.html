@@ -1,0 +1,14 @@
+<div class="d-flex flex-column h-100 justify-content-center fundo">
+
+    <div class=" conteudo m-4 p-3 rounded-3 tracking-in-contract">
+        <h1>{{ frase.frase }}</h1>
+        <h3 class="text-end">-{{ frase.autor }}</h3>
+        
+    </div>
+</div>
+
+ <ion-fab (click)="pegarFrase()" vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="refresh"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
